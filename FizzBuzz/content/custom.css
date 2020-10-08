@@ -1,0 +1,43 @@
+﻿body {
+    background: linear-gradient(#60A9E6, #E0E65A, #60A9E6);
+    display: block;
+    text-size-adjust:auto;
+}
+
+
+
+td {
+    outline:black solid .5px;
+    min-height:250px;
+}
+.tablebg {
+    background: rgba(96, 169, 230, 0.62);
+}
+.table-bordered {
+    border: solid black 4px;
+}
+.commentRow {
+    min-height: 250px;
+}
+.card {
+    border: solid black 2px;
+}
+.card-header {
+    background: rgba(96, 169, 230, 0.62);
+    border-bottom: solid black 2px;
+}
+.card-footer {
+    background: rgba(96, 169, 230, 0.62);
+    border-top: solid black 2px;
+}
+.fizzy {
+
+}
+
+tr {
+    height:50px;
+}
+
+.tab1 {
+    background: linear-gradient(90deg, #92992C)
+}
