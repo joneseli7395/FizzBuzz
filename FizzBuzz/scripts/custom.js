@@ -1,6 +1,6 @@
 ﻿//FizzBuzz
 //Wire event handler for click of button
-document.getElementById("btnFizz").addEventListener('click', function() {
+document.getElementById("btnFizz").addEventListener('click', function () {
 
     //Get user input
     let f = Number(document.getElementById("userIn1").value); //User inputs
@@ -18,10 +18,28 @@ document.getElementById("btnFizz").addEventListener('click', function() {
 
 })
 
+//document.querySelectorAll(".inputs").forEach(item => {
+//    item.addEventListener('keydown', function (evt) {
+
+//        var character = (evt.which) ? evt.which : evt.keycode;
+//        if (character >= 48 && character <= 57 ||
+//            character === 8 ||
+//            character === 32) {
+//            return true;
+//        }
+//        else {
+//            evt.preventDefault();
+//            return false;
+//        }
+//    })
+//}
+
+
+
 //Named function
 function FizzBuzz(f, b) {
-    let output = "";
-    let classCollect = document.getElementsByClassName("fizzy")
+    //let output = "";
+    let classCollect = document.getElementsByClassName("fizzy");
 
     for (let loop = 1; loop < classCollect.length; loop++) {
         let fizzRemainder = loop % f;
@@ -39,18 +57,18 @@ function FizzBuzz(f, b) {
             classCollect[loop].innerHTML = "Fizz";
             classCollect[loop].style.fontWeight = "bold";
 
-        }  
+        }
         else if (buzzRemainder === 0) {
             //output += "Buzz";
             classCollect[loop].innerHTML = "Buzz";
             classCollect[loop].style.fontWeight = "bold";
 
-        } 
+        }
         else {
             //output += loop;
             classCollect[loop].innerHTML = loop;
         }
     }
-        //return output;
+    //return output;
 }
 

@@ -1,7 +1,7 @@
 ﻿body {
-    background: linear-gradient(#262626, #969696, #c2c2c2);
+    background: linear-gradient(#0d2c3c, #808080, #969595);
     display: block;
-    text-size-adjust:auto;
+    text-size-adjust: auto;
 }
 
 td {
