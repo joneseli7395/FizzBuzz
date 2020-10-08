@@ -1,17 +1,15 @@
 ﻿body {
-    background: linear-gradient(#60A9E6, #E0E65A, #60A9E6);
+    background: linear-gradient(#262626, #969696, #c2c2c2);
     display: block;
     text-size-adjust:auto;
 }
-
-
 
 td {
     outline:black solid .5px;
     min-height:250px;
 }
 .tablebg {
-    background: rgba(96, 169, 230, 0.62);
+    background: linear-gradient(45deg, #195370, #60A9E6, #E0E65A);
 }
 .table-bordered {
     border: solid black 4px;
@@ -23,11 +21,11 @@ td {
     border: solid black 2px;
 }
 .card-header {
-    background: rgba(96, 169, 230, 0.62);
+    background: linear-gradient(30deg, #195370, #60A9E6, #195370);
     border-bottom: solid black 2px;
 }
 .card-footer {
-    background: rgba(96, 169, 230, 0.62);
+    background: linear-gradient(45deg, #195370, #60A9E6, #195370);
     border-top: solid black 2px;
 }
 .fizzy {
@@ -38,6 +36,39 @@ tr {
     height:50px;
 }
 
-.tab1 {
-    background: linear-gradient(90deg, #92992C)
+.title {
+    font-size: 60px;
+    font-weight:bold;
+    background: -webkit-linear-gradient(90deg, #60A9E6, #E0E65A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.title2 {
+    background: -webkit-linear-gradient(90deg, #60A9E6, #E0E65A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+input {
+    outline: solid black 1px;
+}
+
+.navi {
+    background: linear-gradient(30deg, #195370, #60A9E6, #195370);
+}
+
+#navigate {
+    color: black!important;
+}
+
+img {
+    column-fill:auto;
+}
+
+.navBurger {
+    border: solid black 0.7px!important;
+}
+
+.active {
+    font-weight: bold!important;
 }

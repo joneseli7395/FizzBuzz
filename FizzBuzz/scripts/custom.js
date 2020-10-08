@@ -30,9 +30,9 @@ function FizzBuzz(f, b) {
 
         if (fizzRemainder === 0 && buzzRemainder === 0) {
             //output += "FizzBuzz";
-            classCollect[loop].innerHTML = "FizzBuzz";
+            classCollect[loop].innerHTML = "FizzBuzz!";
             classCollect[loop].style.fontWeight = "bold";
-            //classCollect[loop].style.color = 
+            //classCollect[loop].style.color = ;
 
 
         }

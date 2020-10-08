@@ -74,6 +74,8 @@
     <Content Include="content\boxicons.min.css" />
     <Content Include="content\custom.css" />
     <Content Include="content\icofont.min.css" />
+    <Content Include="images\fizz.png" />
+    <Content Include="images\infopop.png" />
     <Content Include="index.html" />
     <Content Include="scripts\bootstrap.bundle.min.js" />
     <Content Include="scripts\bootstrap.min.js" />
@@ -104,9 +106,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
