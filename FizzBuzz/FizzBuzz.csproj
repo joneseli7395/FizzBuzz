@@ -74,6 +74,13 @@
     <Content Include="content\boxicons.min.css" />
     <Content Include="content\custom.css" />
     <Content Include="content\icofont.min.css" />
+    <Content Include="content\prism.css" />
+    <Content Include="android-chrome-192x192.png" />
+    <Content Include="android-chrome-512x512.png" />
+    <Content Include="apple-touch-icon.png" />
+    <Content Include="favicon-16x16.png" />
+    <Content Include="favicon-32x32.png" />
+    <Content Include="favicon.ico" />
     <Content Include="images\fizz.png" />
     <Content Include="images\infopop.png" />
     <Content Include="index.html" />
@@ -84,11 +91,13 @@
     <Content Include="fonts\boxicons.woff2" />
     <Content Include="content\fonts\icofont.woff" />
     <Content Include="content\fonts\icofont.woff2" />
+    <Content Include="site.webmanifest" />
     <None Include="scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="scripts\jquery-3.5.1.js" />
     <Content Include="scripts\jquery-3.5.1.min.js" />
     <Content Include="scripts\jquery-3.5.1.slim.js" />
     <Content Include="scripts\jquery-3.5.1.slim.min.js" />
+    <Content Include="scripts\prism.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

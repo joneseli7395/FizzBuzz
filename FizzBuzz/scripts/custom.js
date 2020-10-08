@@ -32,22 +32,18 @@ function FizzBuzz(f, b) {
             //output += "FizzBuzz";
             classCollect[loop].innerHTML = "FizzBuzz!";
             classCollect[loop].style.fontWeight = "bold";
-            //classCollect[loop].style.color = ;
-
 
         }
         else if (fizzRemainder === 0) {
             //output += "Fizz";
             classCollect[loop].innerHTML = "Fizz";
             classCollect[loop].style.fontWeight = "bold";
-            //classCollect[loop].style.color = 
 
         }  
         else if (buzzRemainder === 0) {
             //output += "Buzz";
             classCollect[loop].innerHTML = "Buzz";
             classCollect[loop].style.fontWeight = "bold";
-            //classCollect[loop].style.color = 
 
         } 
         else {
@@ -56,6 +52,5 @@ function FizzBuzz(f, b) {
         }
     }
         //return output;
-
 }
 
