@@ -18,21 +18,32 @@ document.getElementById("btnFizz").addEventListener('click', function () {
 
 })
 
-//document.querySelectorAll(".inputs").forEach(item => {
-//    item.addEventListener('keydown', function (evt) {
+document.getElementById("userIn1").addEventListener('keydown', function (evt) {
 
-//        var character = (evt.which) ? evt.which : evt.keycode;
-//        if (character >= 48 && character <= 57 ||
-//            character === 8 ||
-//            character === 32) {
-//            return true;
-//        }
-//        else {
-//            evt.preventDefault();
-//            return false;
-//        }
-//    })
-//}
+    var character = (evt.which) ? evt.which : evt.keycode;
+    if (character >= 48 && character <= 57 ||
+        character === 8) {
+        return true;
+    }
+    else {
+        evt.preventDefault();
+        return false;
+    }
+})
+
+document.getElementById("userIn2").addEventListener('keydown', function (evt) {
+
+    var character = (evt.which) ? evt.which : evt.keycode;
+    if (character >= 48 && character <= 57 ||
+        character === 8) {
+        return true;
+    }
+    else {
+        evt.preventDefault();
+        return false;
+    }
+})
+
 
 
 
