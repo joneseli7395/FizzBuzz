@@ -8,12 +8,7 @@ td {
     outline:black solid .5px;
     min-height:250px;
 }
-.tablebg {
-    background: linear-gradient(45deg, #195370, #60A9E6, #E0E65A);
-}
-.table-bordered {
-    border: solid black 4px;
-}
+
 .commentRow {
     min-height: 250px;
 }
@@ -62,7 +57,7 @@ input {
 }
 
 img {
-    column-fill:auto;
+    width:100%
 }
 
 .navBurger {
@@ -71,4 +66,9 @@ img {
 
 .active {
     font-weight: bold!important;
+}
+
+.tableCol {
+    height: auto;
+    width: 100%
 }
